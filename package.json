@@ -1,0 +1,41 @@
+{
+  "name": "gai",
+  "version": "0.0.0",
+  "description": "GDB Assembly Informant steps through your assembly code one instruction at a time and diffs register values.",
+  "main": "index.js",
+  "scripts": {
+    "test-main": "tape test/*.js"
+  },
+  "bin": {
+    "gai-gdb": "gai-gdb",
+    "gai-js": "gai-js",
+    "gai-json": "gai-json",
+    "gai-print": "gai-print",
+    "gai-print-js": "gai-print-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/gai.git"
+  },
+  "homepage": "https://github.com/thlorenz/gai",
+  "dependencies": {
+    "ansicolors": "~0.3.2",
+    "text-table": "~0.2.0"
+  },
+  "devDependencies": {
+    "tape": "~0.4.3"
+  },
+  "keywords": [ "gdb", "debug", "visualize", "instructions", "cpu", "processor", "registers", "state"],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "GPL3",
+    "url": "https://github.com/thlorenz/gai/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.8"
+  }
+}
