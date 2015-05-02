@@ -10,7 +10,7 @@
     "gai-js": "gai-js",
     "gai-json": "gai-json",
     "gai-print": "gai-print",
-    "gai-print-js": "gai-print-js"
+    "gai-print.js": "gai-print.js"
   },
   "repository": {
     "type": "git",
