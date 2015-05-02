@@ -1,6 +1,6 @@
 {
   "name": "gai",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "GDB Assembly Informant steps through your assembly code one instruction at a time and diffs register values.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,16 @@
   "devDependencies": {
     "tape": "~0.4.3"
   },
-  "keywords": [ "gdb", "debug", "visualize", "instructions", "cpu", "processor", "registers", "state"],
+  "keywords": [
+    "gdb",
+    "debug",
+    "visualize",
+    "instructions",
+    "cpu",
+    "processor",
+    "registers",
+    "state"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
