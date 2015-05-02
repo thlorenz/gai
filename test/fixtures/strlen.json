@@ -1,0 +1,2398 @@
+{
+  "steps": [
+    {
+      "line": "=> 0x080480bd <_start.gai_s+0>:  be 42 91 04 08  mov    esi,0x8049142",
+      "address": "0x080480bd <_start.gai_s+0>",
+      "instruction": "be 42 91 04 08  mov    esi,0x8049142",
+      "diff": {
+        "esi": {
+          "prev": {
+            "hex": "0x0",
+            "decimal": "0"
+          },
+          "curr": {
+            "hex": "0x8049142",
+            "decimal": "134517058"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480bd"
+          },
+          "curr": {
+            "hex": "0x80480c2"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480c2"
+        },
+        "eflags": {
+          "hex": "0x202",
+          "flagsString": "[ IF ]",
+          "flags": {
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480c2 <_start.gai_s+5>:  e8 b9 ff ff ff  call   0x8048080 <strlen>",
+      "address": "0x080480c2 <_start.gai_s+5>",
+      "instruction": "e8 b9 ff ff ff  call   0x8048080 <strlen>",
+      "diff": {
+        "esp": {
+          "prev": {
+            "hex": "0xffffd360"
+          },
+          "curr": {
+            "hex": "0xffffd35c"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480c2"
+          },
+          "curr": {
+            "hex": "0x8048080"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd35c"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x8048080"
+        },
+        "eflags": {
+          "hex": "0x202",
+          "flagsString": "[ IF ]",
+          "flags": {
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048080 <strlen+0>:  51  push   ecx",
+      "address": "0x08048080 <strlen+0>",
+      "instruction": "51  push   ecx",
+      "diff": {
+        "esp": {
+          "prev": {
+            "hex": "0xffffd35c"
+          },
+          "curr": {
+            "hex": "0xffffd358"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048080"
+          },
+          "curr": {
+            "hex": "0x8048081"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd358"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x8048081"
+        },
+        "eflags": {
+          "hex": "0x202",
+          "flagsString": "[ IF ]",
+          "flags": {
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048081 <strlen+1>:  57  push   edi",
+      "address": "0x08048081 <strlen+1>",
+      "instruction": "57  push   edi",
+      "diff": {
+        "esp": {
+          "prev": {
+            "hex": "0xffffd358"
+          },
+          "curr": {
+            "hex": "0xffffd354"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048081"
+          },
+          "curr": {
+            "hex": "0x8048082"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x8048082"
+        },
+        "eflags": {
+          "hex": "0x202",
+          "flagsString": "[ IF ]",
+          "flags": {
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048082 <strlen+2>:  89 f7  mov    edi,esi",
+      "address": "0x08048082 <strlen+2>",
+      "instruction": "89 f7  mov    edi,esi",
+      "diff": {
+        "edi": {
+          "prev": {
+            "hex": "0x0",
+            "decimal": "0"
+          },
+          "curr": {
+            "hex": "0x8049142",
+            "decimal": "134517058"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048082"
+          },
+          "curr": {
+            "hex": "0x8048084"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "eip": {
+          "hex": "0x8048084"
+        },
+        "eflags": {
+          "hex": "0x202",
+          "flagsString": "[ IF ]",
+          "flags": {
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048084 <strlen+4>:  31 c0  xor    eax,eax",
+      "address": "0x08048084 <strlen+4>",
+      "instruction": "31 c0  xor    eax,eax",
+      "diff": {
+        "eip": {
+          "prev": {
+            "hex": "0x8048084"
+          },
+          "curr": {
+            "hex": "0x8048086"
+          }
+        },
+        "eflags": {
+          "prev": {
+            "hex": "0x202",
+            "flagsString": "[ IF ]",
+            "flags": {
+              "IF": true
+            }
+          },
+          "curr": {
+            "hex": "0x246",
+            "flagsString": "[ PF ZF IF ]",
+            "flags": {
+              "PF": true,
+              "ZF": true,
+              "IF": true
+            }
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "eip": {
+          "hex": "0x8048086"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048086 <strlen+6>:  b9 ff ff 00 00  mov    ecx,0xffff",
+      "address": "0x08048086 <strlen+6>",
+      "instruction": "b9 ff ff 00 00  mov    ecx,0xffff",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0x0",
+            "decimal": "0"
+          },
+          "curr": {
+            "hex": "0xffff",
+            "decimal": "65535"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048086"
+          },
+          "curr": {
+            "hex": "0x804808b"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xffff",
+          "decimal": "65535"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "eip": {
+          "hex": "0x804808b"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808b <strlen+11>:  fc  cld    ",
+      "address": "0x0804808b <strlen+11>",
+      "instruction": "fc  cld",
+      "diff": {
+        "eip": {
+          "prev": {
+            "hex": "0x804808b"
+          },
+          "curr": {
+            "hex": "0x804808c"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xffff",
+          "decimal": "65535"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xffff",
+            "decimal": "65535"
+          },
+          "curr": {
+            "hex": "0xfffe",
+            "decimal": "65534"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049142",
+            "decimal": "134517058"
+          },
+          "curr": {
+            "hex": "0x8049143",
+            "decimal": "134517059"
+          }
+        },
+        "eflags": {
+          "prev": {
+            "hex": "0x246",
+            "flagsString": "[ PF ZF IF ]",
+            "flags": {
+              "PF": true,
+              "ZF": true,
+              "IF": true
+            }
+          },
+          "curr": {
+            "hex": "0x10246",
+            "flagsString": "[ PF ZF IF RF ]",
+            "flags": {
+              "PF": true,
+              "ZF": true,
+              "IF": true,
+              "RF": true
+            }
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfffe",
+          "decimal": "65534"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049143",
+          "decimal": "134517059"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfffe",
+            "decimal": "65534"
+          },
+          "curr": {
+            "hex": "0xfffd",
+            "decimal": "65533"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049143",
+            "decimal": "134517059"
+          },
+          "curr": {
+            "hex": "0x8049144",
+            "decimal": "134517060"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfffd",
+          "decimal": "65533"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049144",
+          "decimal": "134517060"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfffd",
+            "decimal": "65533"
+          },
+          "curr": {
+            "hex": "0xfffc",
+            "decimal": "65532"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049144",
+            "decimal": "134517060"
+          },
+          "curr": {
+            "hex": "0x8049145",
+            "decimal": "134517061"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfffc",
+          "decimal": "65532"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049145",
+          "decimal": "134517061"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfffc",
+            "decimal": "65532"
+          },
+          "curr": {
+            "hex": "0xfffb",
+            "decimal": "65531"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049145",
+            "decimal": "134517061"
+          },
+          "curr": {
+            "hex": "0x8049146",
+            "decimal": "134517062"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfffb",
+          "decimal": "65531"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049146",
+          "decimal": "134517062"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfffb",
+            "decimal": "65531"
+          },
+          "curr": {
+            "hex": "0xfffa",
+            "decimal": "65530"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049146",
+            "decimal": "134517062"
+          },
+          "curr": {
+            "hex": "0x8049147",
+            "decimal": "134517063"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfffa",
+          "decimal": "65530"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049147",
+          "decimal": "134517063"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfffa",
+            "decimal": "65530"
+          },
+          "curr": {
+            "hex": "0xfff9",
+            "decimal": "65529"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049147",
+            "decimal": "134517063"
+          },
+          "curr": {
+            "hex": "0x8049148",
+            "decimal": "134517064"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfff9",
+          "decimal": "65529"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049148",
+          "decimal": "134517064"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfff9",
+            "decimal": "65529"
+          },
+          "curr": {
+            "hex": "0xfff8",
+            "decimal": "65528"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049148",
+            "decimal": "134517064"
+          },
+          "curr": {
+            "hex": "0x8049149",
+            "decimal": "134517065"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfff8",
+          "decimal": "65528"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x8049149",
+          "decimal": "134517065"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfff8",
+            "decimal": "65528"
+          },
+          "curr": {
+            "hex": "0xfff7",
+            "decimal": "65527"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x8049149",
+            "decimal": "134517065"
+          },
+          "curr": {
+            "hex": "0x804914a",
+            "decimal": "134517066"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfff7",
+          "decimal": "65527"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x804914a",
+          "decimal": "134517066"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfff7",
+            "decimal": "65527"
+          },
+          "curr": {
+            "hex": "0xfff6",
+            "decimal": "65526"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x804914a",
+            "decimal": "134517066"
+          },
+          "curr": {
+            "hex": "0x804914b",
+            "decimal": "134517067"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfff6",
+          "decimal": "65526"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x804914b",
+          "decimal": "134517067"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfff6",
+            "decimal": "65526"
+          },
+          "curr": {
+            "hex": "0xfff5",
+            "decimal": "65525"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x804914b",
+            "decimal": "134517067"
+          },
+          "curr": {
+            "hex": "0x804914c",
+            "decimal": "134517068"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfff5",
+          "decimal": "65525"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x804914c",
+          "decimal": "134517068"
+        },
+        "eip": {
+          "hex": "0x804808c"
+        },
+        "eflags": {
+          "hex": "0x10246",
+          "flagsString": "[ PF ZF IF RF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true,
+            "RF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808c <strlen+12>:  f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "address": "0x0804808c <strlen+12>",
+      "instruction": "f2 ae  repnz scas al,BYTE PTR es:[edi]",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfff5",
+            "decimal": "65525"
+          },
+          "curr": {
+            "hex": "0xfff4",
+            "decimal": "65524"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x804914c",
+            "decimal": "134517068"
+          },
+          "curr": {
+            "hex": "0x804914d",
+            "decimal": "134517069"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x804808c"
+          },
+          "curr": {
+            "hex": "0x804808e"
+          }
+        },
+        "eflags": {
+          "prev": {
+            "hex": "0x10246",
+            "flagsString": "[ PF ZF IF RF ]",
+            "flags": {
+              "PF": true,
+              "ZF": true,
+              "IF": true,
+              "RF": true
+            }
+          },
+          "curr": {
+            "hex": "0x246",
+            "flagsString": "[ PF ZF IF ]",
+            "flags": {
+              "PF": true,
+              "ZF": true,
+              "IF": true
+            }
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfff4",
+          "decimal": "65524"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x804914d",
+          "decimal": "134517069"
+        },
+        "eip": {
+          "hex": "0x804808e"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x0804808e <strlen+14>:  75 0a  jne    0x804809a <strlen.fail>",
+      "address": "0x0804808e <strlen+14>",
+      "instruction": "75 0a  jne    0x804809a <strlen.fail>",
+      "diff": {
+        "eip": {
+          "prev": {
+            "hex": "0x804808e"
+          },
+          "curr": {
+            "hex": "0x8048090"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ecx": {
+          "hex": "0xfff4",
+          "decimal": "65524"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x804914d",
+          "decimal": "134517069"
+        },
+        "eip": {
+          "hex": "0x8048090"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048090 <strlen+16>:  b8 fe ff 00 00  mov    eax,0xfffe",
+      "address": "0x08048090 <strlen+16>",
+      "instruction": "b8 fe ff 00 00  mov    eax,0xfffe",
+      "diff": {
+        "eax": {
+          "prev": {
+            "hex": "0x0",
+            "decimal": "0"
+          },
+          "curr": {
+            "hex": "0xfffe",
+            "decimal": "65534"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048090"
+          },
+          "curr": {
+            "hex": "0x8048095"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0xfffe",
+          "decimal": "65534"
+        },
+        "ecx": {
+          "hex": "0xfff4",
+          "decimal": "65524"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x804914d",
+          "decimal": "134517069"
+        },
+        "eip": {
+          "hex": "0x8048095"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048095 <strlen+21>:  29 c8  sub    eax,ecx",
+      "address": "0x08048095 <strlen+21>",
+      "instruction": "29 c8  sub    eax,ecx",
+      "diff": {
+        "eax": {
+          "prev": {
+            "hex": "0xfffe",
+            "decimal": "65534"
+          },
+          "curr": {
+            "hex": "0xa",
+            "decimal": "10"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048095"
+          },
+          "curr": {
+            "hex": "0x8048097"
+          }
+        },
+        "eflags": {
+          "prev": {
+            "hex": "0x246",
+            "flagsString": "[ PF ZF IF ]",
+            "flags": {
+              "PF": true,
+              "ZF": true,
+              "IF": true
+            }
+          },
+          "curr": {
+            "hex": "0x206",
+            "flagsString": "[ PF IF ]",
+            "flags": {
+              "PF": true,
+              "IF": true
+            }
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0xa",
+          "decimal": "10"
+        },
+        "ecx": {
+          "hex": "0xfff4",
+          "decimal": "65524"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd354"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x804914d",
+          "decimal": "134517069"
+        },
+        "eip": {
+          "hex": "0x8048097"
+        },
+        "eflags": {
+          "hex": "0x206",
+          "flagsString": "[ PF IF ]",
+          "flags": {
+            "PF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048097 <strlen+23>:  5f  pop    edi",
+      "address": "0x08048097 <strlen+23>",
+      "instruction": "5f  pop    edi",
+      "diff": {
+        "esp": {
+          "prev": {
+            "hex": "0xffffd354"
+          },
+          "curr": {
+            "hex": "0xffffd358"
+          }
+        },
+        "edi": {
+          "prev": {
+            "hex": "0x804914d",
+            "decimal": "134517069"
+          },
+          "curr": {
+            "hex": "0x0",
+            "decimal": "0"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048097"
+          },
+          "curr": {
+            "hex": "0x8048098"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0xa",
+          "decimal": "10"
+        },
+        "ecx": {
+          "hex": "0xfff4",
+          "decimal": "65524"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd358"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x8048098"
+        },
+        "eflags": {
+          "hex": "0x206",
+          "flagsString": "[ PF IF ]",
+          "flags": {
+            "PF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048098 <strlen+24>:  59  pop    ecx",
+      "address": "0x08048098 <strlen+24>",
+      "instruction": "59  pop    ecx",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0xfff4",
+            "decimal": "65524"
+          },
+          "curr": {
+            "hex": "0x0",
+            "decimal": "0"
+          }
+        },
+        "esp": {
+          "prev": {
+            "hex": "0xffffd358"
+          },
+          "curr": {
+            "hex": "0xffffd35c"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048098"
+          },
+          "curr": {
+            "hex": "0x8048099"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0xa",
+          "decimal": "10"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd35c"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x8048099"
+        },
+        "eflags": {
+          "hex": "0x206",
+          "flagsString": "[ PF IF ]",
+          "flags": {
+            "PF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x08048099 <strlen+25>:  c3  ret    ",
+      "address": "0x08048099 <strlen+25>",
+      "instruction": "c3  ret",
+      "diff": {
+        "esp": {
+          "prev": {
+            "hex": "0xffffd35c"
+          },
+          "curr": {
+            "hex": "0xffffd360"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x8048099"
+          },
+          "curr": {
+            "hex": "0x80480c7"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0xa",
+          "decimal": "10"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480c7"
+        },
+        "eflags": {
+          "hex": "0x206",
+          "flagsString": "[ PF IF ]",
+          "flags": {
+            "PF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480c7 <_start.gai_s+10>:  83 f8 0a  cmp    eax,0xa",
+      "address": "0x080480c7 <_start.gai_s+10>",
+      "instruction": "83 f8 0a  cmp    eax,0xa",
+      "diff": {
+        "eip": {
+          "prev": {
+            "hex": "0x80480c7"
+          },
+          "curr": {
+            "hex": "0x80480ca"
+          }
+        },
+        "eflags": {
+          "prev": {
+            "hex": "0x206",
+            "flagsString": "[ PF IF ]",
+            "flags": {
+              "PF": true,
+              "IF": true
+            }
+          },
+          "curr": {
+            "hex": "0x246",
+            "flagsString": "[ PF ZF IF ]",
+            "flags": {
+              "PF": true,
+              "ZF": true,
+              "IF": true
+            }
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0xa",
+          "decimal": "10"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480ca"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480ca <_start.gai_s+13>:  74 1d  je     0x80480e9 <_start.pass>",
+      "address": "0x080480ca <_start.gai_s+13>",
+      "instruction": "74 1d  je     0x80480e9 <_start.pass>",
+      "diff": {
+        "eip": {
+          "prev": {
+            "hex": "0x80480ca"
+          },
+          "curr": {
+            "hex": "0x80480e9"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0xa",
+          "decimal": "10"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480e9"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480e9 <_start.pass+0>:  b8 04 00 00 00  mov    eax,0x4",
+      "address": "0x080480e9 <_start.pass+0>",
+      "instruction": "b8 04 00 00 00  mov    eax,0x4",
+      "diff": {
+        "eax": {
+          "prev": {
+            "hex": "0xa",
+            "decimal": "10"
+          },
+          "curr": {
+            "hex": "0x4",
+            "decimal": "4"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480e9"
+          },
+          "curr": {
+            "hex": "0x80480ee"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x4",
+          "decimal": "4"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480ee"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480ee <_start.pass+5>:  bb 01 00 00 00  mov    ebx,0x1",
+      "address": "0x080480ee <_start.pass+5>",
+      "instruction": "bb 01 00 00 00  mov    ebx,0x1",
+      "diff": {
+        "ebx": {
+          "prev": {
+            "hex": "0x0",
+            "decimal": "0"
+          },
+          "curr": {
+            "hex": "0x1",
+            "decimal": "1"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480ee"
+          },
+          "curr": {
+            "hex": "0x80480f3"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x4",
+          "decimal": "4"
+        },
+        "ecx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x1",
+          "decimal": "1"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480f3"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480f3 <_start.pass+10>:  b9 56 91 04 08  mov    ecx,0x8049156",
+      "address": "0x080480f3 <_start.pass+10>",
+      "instruction": "b9 56 91 04 08  mov    ecx,0x8049156",
+      "diff": {
+        "ecx": {
+          "prev": {
+            "hex": "0x0",
+            "decimal": "0"
+          },
+          "curr": {
+            "hex": "0x8049156",
+            "decimal": "134517078"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480f3"
+          },
+          "curr": {
+            "hex": "0x80480f8"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x4",
+          "decimal": "4"
+        },
+        "ecx": {
+          "hex": "0x8049156",
+          "decimal": "134517078"
+        },
+        "edx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "ebx": {
+          "hex": "0x1",
+          "decimal": "1"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480f8"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480f8 <_start.pass+15>:  ba 09 00 00 00  mov    edx,0x9",
+      "address": "0x080480f8 <_start.pass+15>",
+      "instruction": "ba 09 00 00 00  mov    edx,0x9",
+      "diff": {
+        "edx": {
+          "prev": {
+            "hex": "0x0",
+            "decimal": "0"
+          },
+          "curr": {
+            "hex": "0x9",
+            "decimal": "9"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480f8"
+          },
+          "curr": {
+            "hex": "0x80480fd"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x4",
+          "decimal": "4"
+        },
+        "ecx": {
+          "hex": "0x8049156",
+          "decimal": "134517078"
+        },
+        "edx": {
+          "hex": "0x9",
+          "decimal": "9"
+        },
+        "ebx": {
+          "hex": "0x1",
+          "decimal": "1"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480fd"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480fd <_start.pass+20>:  cd 80  int    0x80",
+      "address": "0x080480fd <_start.pass+20>",
+      "instruction": "cd 80  int    0x80",
+      "diff": {
+        "eax": {
+          "prev": {
+            "hex": "0x4",
+            "decimal": "4"
+          },
+          "curr": {
+            "hex": "0x9",
+            "decimal": "9"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480fd"
+          },
+          "curr": {
+            "hex": "0x80480ff"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x9",
+          "decimal": "9"
+        },
+        "ecx": {
+          "hex": "0x8049156",
+          "decimal": "134517078"
+        },
+        "edx": {
+          "hex": "0x9",
+          "decimal": "9"
+        },
+        "ebx": {
+          "hex": "0x1",
+          "decimal": "1"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x80480ff"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    },
+    {
+      "line": "=> 0x080480ff <_start.pass+22>:  bb 00 00 00 00  mov    ebx,0x0",
+      "address": "0x080480ff <_start.pass+22>",
+      "instruction": "bb 00 00 00 00  mov    ebx,0x0",
+      "diff": {
+        "ebx": {
+          "prev": {
+            "hex": "0x1",
+            "decimal": "1"
+          },
+          "curr": {
+            "hex": "0x0",
+            "decimal": "0"
+          }
+        },
+        "eip": {
+          "prev": {
+            "hex": "0x80480ff"
+          },
+          "curr": {
+            "hex": "0x8048104"
+          }
+        }
+      },
+      "regs": {
+        "eax": {
+          "hex": "0x9",
+          "decimal": "9"
+        },
+        "ecx": {
+          "hex": "0x8049156",
+          "decimal": "134517078"
+        },
+        "edx": {
+          "hex": "0x9",
+          "decimal": "9"
+        },
+        "ebx": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "esp": {
+          "hex": "0xffffd360"
+        },
+        "ebp": {
+          "hex": "0x0"
+        },
+        "esi": {
+          "hex": "0x8049142",
+          "decimal": "134517058"
+        },
+        "edi": {
+          "hex": "0x0",
+          "decimal": "0"
+        },
+        "eip": {
+          "hex": "0x8048104"
+        },
+        "eflags": {
+          "hex": "0x246",
+          "flagsString": "[ PF ZF IF ]",
+          "flags": {
+            "PF": true,
+            "ZF": true,
+            "IF": true
+          }
+        }
+      }
+    }
+  ],
+  "opcodes": [
+    "be 42 91 04 08 ",
+    "e8 b9 ff ff ff ",
+    "51 ",
+    "57 ",
+    "89 f7 ",
+    "31 c0 ",
+    "b9 ff ff 00 00 ",
+    "fc ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "f2 ae ",
+    "75 0a ",
+    "b8 fe ff 00 00 ",
+    "29 c8 ",
+    "5f ",
+    "59 ",
+    "c3 ",
+    "83 f8 0a ",
+    "74 1d ",
+    "b8 04 00 00 00 ",
+    "bb 01 00 00 00 ",
+    "b9 56 91 04 08 ",
+    "ba 09 00 00 00 ",
+    "cd 80 ",
+    "bb 00 00 00 00 "
+  ]
+}

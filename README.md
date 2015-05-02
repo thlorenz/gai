@@ -1,4 +1,4 @@
-# gai
+# gai [![build status](https://secure.travis-ci.org/thlorenz/gai.png)](http://travis-ci.org/thlorenz/gai)
 
 GDB Assembly Informant steps through your assembly code one instruction at a time and diffs register values.
 
@@ -39,8 +39,6 @@ As an example lets take [examples/inc.asm](examples/inc.asm):
 
 ```asm
 global _start
-; Initially all regs are 0x0 except for ESP and EIP
-; EFLAGs are 0x202 (INTERRUPT flag set -- IF) and a reserved one?
 _start:
   nop
 
@@ -83,7 +81,7 @@ gai-json examples/strlen > out.json
 ### Other scripts
 
 Three more `gai-*` scripts are in your path, mainly so the main scripts can find them in the `npm` bin path. They are of
-limited use by themselves so read through them to see if you wnat to run them directly.
+limited use by themselves so read through them to see if you want to run them directly.
 
 ## Platforms
 

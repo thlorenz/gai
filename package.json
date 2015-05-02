@@ -2,9 +2,8 @@
   "name": "gai",
   "version": "0.1.0",
   "description": "GDB Assembly Informant steps through your assembly code one instruction at a time and diffs register values.",
-  "main": "index.js",
   "scripts": {
-    "test-main": "tape test/*.js"
+    "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "bin": {
     "gai-gdb": "gai-gdb",
@@ -23,7 +22,7 @@
     "text-table": "~0.2.0"
   },
   "devDependencies": {
-    "tape": "~0.4.3"
+    "tape": "~4.0.0"
   },
   "keywords": [
     "gdb",
