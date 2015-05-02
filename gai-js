@@ -19,10 +19,6 @@ function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true));
 }
 
-function insp(obj, depth) {
-  return require('util').inspect(obj, false, depth || 5, false);
-}
-
 function onend() {
   var lines = Buffer.concat(data).toString().split('\n')
   processLines(lines);
@@ -85,14 +81,8 @@ function processLines(lines) {
 
   var opcodes = collectOpCodes(results);
 
-  // if no --file arg
   var json = JSON.stringify({ steps: results, opcodes: opcodes }, null, 2);
   process.stdout.write(json);
-
-  /*var js =  'exports.steps = ' + insp(results) + '\n'
-          + 'exports.opcodes = ' + insp(opcodes);*/
-
-  //fs.writeFileSync(path.join(__dirname, 'inc.js'), js)
 }
 
 function processFrame(line, lines) {
@@ -112,7 +102,7 @@ function processFrame(line, lines) {
 
     regName = parts[0]
     // ignore a bunch of unexpected lines that may occur
-    if (!/^(e.[xp]|eflags)/.test(regName)) continue;
+    if (!/^(e[abcd]x|e[sbi]p|e[ds]i|eflags)/.test(regName)) continue;
 
     hexVal = parts[1]
 

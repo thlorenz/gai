@@ -38,14 +38,16 @@ function fromStdin() {
 }
 
 function tableize(step) {
-  function toString(acc, k, idx) {
-    if (k === 'eip') return acc;
+  var first = true;
+  function toString(acc, k) {
+    if (k === 'eip') return acc; // instruction pointer always changes and isn't important here
     var d = step.diff[k];
     var s = acc;
-    if (idx) s += ',';
+    s += first ? ';' : ',';
     s += ' ' + k + ': ' + d.prev.hex + ' -> ' + d.curr.hex;
 
     if (k === 'eflags') s += ' ' + d.curr.flagsString;
+    first = false;
     return s;
   }
   var diffString = step.diff
@@ -56,7 +58,7 @@ function tableize(step) {
   var opcodes = m[0].trim()
     , inst = step.instruction.replace(opcodes, '').trim();
 
-  return [ colors.brightBlack(step.address), colors.brightBlue(opcodes), colors.green(inst), colors.brightBlack(';' + diffString) ];
+  return [ colors.brightBlack(step.address), colors.brightBlue(opcodes), colors.green(inst), colors.brightBlack(diffString) ];
 }
 
 function print(steps) {
