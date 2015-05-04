@@ -67,6 +67,8 @@ function processLines(lines) {
     results.push(res);
   }
 
+  var initialRegs = results[0].regs;
+
   // We see the results AFTER we step, so the reg values we want
   // are in the next step
   for (var i = 0; i < results.length - 1; i++) {
@@ -81,7 +83,11 @@ function processLines(lines) {
 
   var opcodes = collectOpCodes(results);
 
-  var json = JSON.stringify({ steps: results, opcodes: opcodes }, null, 2);
+  var json = JSON.stringify({ 
+        steps        : results
+      , initialState : { regs  : initialRegs }
+      , opcodes      : opcodes
+    }, null, 2);
   process.stdout.write(json);
 }
 

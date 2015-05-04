@@ -42,7 +42,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -74,10 +74,10 @@
       "diff": {
         "esp": {
           "prev": {
-            "hex": "0xffffd360"
+            "hex": "0xffffc0d0"
           },
           "curr": {
-            "hex": "0xffffd35c"
+            "hex": "0xffffc0cc"
           }
         },
         "eip": {
@@ -107,7 +107,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd35c"
+          "hex": "0xffffc0cc"
         },
         "ebp": {
           "hex": "0x0"
@@ -139,10 +139,10 @@
       "diff": {
         "esp": {
           "prev": {
-            "hex": "0xffffd35c"
+            "hex": "0xffffc0cc"
           },
           "curr": {
-            "hex": "0xffffd358"
+            "hex": "0xffffc0c8"
           }
         },
         "eip": {
@@ -172,7 +172,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd358"
+          "hex": "0xffffc0c8"
         },
         "ebp": {
           "hex": "0x0"
@@ -204,10 +204,10 @@
       "diff": {
         "esp": {
           "prev": {
-            "hex": "0xffffd358"
+            "hex": "0xffffc0c8"
           },
           "curr": {
-            "hex": "0xffffd354"
+            "hex": "0xffffc0c4"
           }
         },
         "eip": {
@@ -237,7 +237,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -304,7 +304,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -379,7 +379,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -448,7 +448,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -507,7 +507,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -599,7 +599,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -671,7 +671,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -743,7 +743,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -815,7 +815,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -887,7 +887,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -959,7 +959,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1031,7 +1031,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1103,7 +1103,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1175,7 +1175,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1247,7 +1247,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1348,7 +1348,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1407,7 +1407,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1476,7 +1476,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1564,7 +1564,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd354"
+          "hex": "0xffffc0c4"
         },
         "ebp": {
           "hex": "0x0"
@@ -1597,10 +1597,10 @@
       "diff": {
         "esp": {
           "prev": {
-            "hex": "0xffffd354"
+            "hex": "0xffffc0c4"
           },
           "curr": {
-            "hex": "0xffffd358"
+            "hex": "0xffffc0c8"
           }
         },
         "edi": {
@@ -1640,7 +1640,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd358"
+          "hex": "0xffffc0c8"
         },
         "ebp": {
           "hex": "0x0"
@@ -1683,10 +1683,10 @@
         },
         "esp": {
           "prev": {
-            "hex": "0xffffd358"
+            "hex": "0xffffc0c8"
           },
           "curr": {
-            "hex": "0xffffd35c"
+            "hex": "0xffffc0cc"
           }
         },
         "eip": {
@@ -1716,7 +1716,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd35c"
+          "hex": "0xffffc0cc"
         },
         "ebp": {
           "hex": "0x0"
@@ -1749,10 +1749,10 @@
       "diff": {
         "esp": {
           "prev": {
-            "hex": "0xffffd35c"
+            "hex": "0xffffc0cc"
           },
           "curr": {
-            "hex": "0xffffd360"
+            "hex": "0xffffc0d0"
           }
         },
         "eip": {
@@ -1782,7 +1782,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -1859,7 +1859,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -1918,7 +1918,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -1987,7 +1987,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -2056,7 +2056,7 @@
           "decimal": "1"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -2125,7 +2125,7 @@
           "decimal": "1"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -2194,7 +2194,7 @@
           "decimal": "1"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -2263,7 +2263,7 @@
           "decimal": "1"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -2332,7 +2332,7 @@
           "decimal": "0"
         },
         "esp": {
-          "hex": "0xffffd360"
+          "hex": "0xffffc0d0"
         },
         "ebp": {
           "hex": "0x0"
@@ -2360,6 +2360,50 @@
       }
     }
   ],
+  "initialState": {
+    "regs": {
+      "eax": {
+        "hex": "0x0",
+        "decimal": "0"
+      },
+      "ecx": {
+        "hex": "0x0",
+        "decimal": "0"
+      },
+      "edx": {
+        "hex": "0x0",
+        "decimal": "0"
+      },
+      "ebx": {
+        "hex": "0x0",
+        "decimal": "0"
+      },
+      "esp": {
+        "hex": "0xffffc0d0"
+      },
+      "ebp": {
+        "hex": "0x0"
+      },
+      "esi": {
+        "hex": "0x0",
+        "decimal": "0"
+      },
+      "edi": {
+        "hex": "0x0",
+        "decimal": "0"
+      },
+      "eip": {
+        "hex": "0x80480bd"
+      },
+      "eflags": {
+        "hex": "0x202",
+        "flagsString": "[ IF ]",
+        "flags": {
+          "IF": true
+        }
+      }
+    }
+  },
   "opcodes": [
     "be 42 91 04 08 ",
     "e8 b9 ff ff ff ",

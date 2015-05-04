@@ -10,7 +10,7 @@ var examplesDir = path.join(rootDir, 'examples');
 function cleanVolatiles(info) {
   function cleanStep(s) {
     delete s.diff.esp
-    delete s.diff.esp
+    delete s.diff.ebp
     delete s.regs.esp
     delete s.regs.ebp
   }
