@@ -68,6 +68,8 @@ function processLines(lines) {
   }
 
   var initialRegs = results[0].regs;
+  // should be same as eip at that point
+  var entryPoint = results[0].address.split(' ')[0]
 
   // We see the results AFTER we step, so the reg values we want
   // are in the next step
@@ -83,9 +85,12 @@ function processLines(lines) {
 
   var opcodes = collectOpCodes(results);
 
-  var json = JSON.stringify({ 
+  var json = JSON.stringify({
         steps        : results
-      , initialState : { regs  : initialRegs }
+      , initialState : {
+          entryPoint: entryPoint
+        , regs  : initialRegs
+        }
       , opcodes      : opcodes
     }, null, 2);
   process.stdout.write(json);
