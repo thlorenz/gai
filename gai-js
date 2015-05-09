@@ -20,7 +20,12 @@ function inspect(obj, depth) {
 }
 
 function onend() {
-  var lines = Buffer.concat(data).toString().split('\n')
+  var lines = Buffer.concat(data)
+    .toString()
+    .replace(/^Z/g, '')
+    .replace(/\t/g, '  ')
+    .split('\n')
+
   processLines(lines);
 }
 
