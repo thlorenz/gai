@@ -1,6 +1,6 @@
 {
   "name": "gai",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "GDB Assembly Informant steps through your assembly code one instruction at a time and diffs register values.",
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
