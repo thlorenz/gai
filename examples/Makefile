@@ -18,7 +18,7 @@ export $(MAKECMDGOALS)
 
 .SUFFIXES: .asm .o
 .asm.o:
-	@nasm -f $(NASM_FMT) -g -F $(DBGI) $< -o $@
+	@nasm -f $(NASM_FMT) -g $< -o $@
 
 .o:
 	@ld -m $(LD_EMM) -o $@ $^
@@ -28,6 +28,8 @@ strlen:
 inc:
 
 strncmp:
+
+jmp:
 
 clean:
 	@rm -f $(OBJS) $(EXECS)

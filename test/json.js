@@ -15,6 +15,7 @@ function cleanVolatiles(info) {
     delete s.regs.ebp
   }
   info.steps.forEach(cleanStep)
+  return info
 }
 
 test('\nsetup', function (t) {
@@ -28,21 +29,21 @@ function check(executable) {
   exec('make ' + executable, { cwd: examplesDir })
 
   test('\ngenerating json for ' + executable, function (t) {
-    exec('make clean && make strlen', { cwd: examplesDir })
-    exec('./gai-json examples/strlen > test/results/' + executable + '.json', { cwd: rootDir })
+    exec('make clean && make ' + executable, { cwd: examplesDir })
+    exec('./gai-json examples/' + executable + ' > test/results/' + executable + '.json', { cwd: rootDir })
     var fixture = require('./fixtures/' + executable + '.json')
     var result = require('./results/' + executable + '.json')
 
     t.deepEqual(cleanVolatiles(result), cleanVolatiles(fixture), 'generates expected json')
 
     t.end()
-
   })
 }
 
 check('inc')
 check('strlen')
 check('strncmp')
+check('jmp')
 
 test('\nteardown', function (t) {
   exec('make clean', { cwd: examplesDir })

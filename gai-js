@@ -48,10 +48,25 @@ function collectOpCodes(results) {
     var inst = x.instruction
     var m = inst.match(/^([a-f0-9]{2} )+/);
     if (!m) throw new Error('Couldn\'t find opcode for ' + inst);
-    return m[0]
+    return { op: m[0], addr: parseInt(x.address, 16) }
   }
-  return results.map(opcode)
+
+  function oponly(x) {
+    return x.op
+  }
+
+  function byaddress(x1, x2) {
+    return x1.addr - x2.addr
+  }
+
+  var sorted = results
+    .map(opcode)
+    .sort(byaddress)
+    .map(oponly)
+
+  return sorted
 }
+
 
 function processLines(lines) {
   var line, res = {}, results = [], prevRegs
