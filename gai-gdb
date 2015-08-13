@@ -1,5 +1,3 @@
-# gdb -nx --batch -x ./gai-gdb -f <file> | sed 's/^Z//g' | sed 's/\t/  /g' > gdb.out 
-
 set disassemble-next-line on
 set disassembly-flavor intel
 
