@@ -3,4 +3,4 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 gdb -nx --batch -x $DIR/gai-gdb -f $1 2> /tmp/gai__gdb_err.txt  | \
-  $DIR/gai-js
+  $DIR/gai-js $1

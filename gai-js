@@ -2,8 +2,16 @@
 
 'use strict';
 
-var fs = require('fs')
-  , path = require('path')
+var fs      = require('fs')
+  , path    = require('path')
+  , opcodes = require('./opcodes')
+  , file    = process.argv[2]
+
+if (!file) {
+  console.error('Usage: gai-js <filename>')
+  process.exit(1)
+}
+file = path.resolve(file)
 
 var data = [];
 process.stdin
@@ -27,20 +35,6 @@ function onend() {
     .split('\n')
 
   processLines(lines);
-}
-
-function diffRegs(prev, regs) {
-  if (!prev) return {};
-
-  function collectDiff(acc, k) {
-    var p = prev[k], c = regs[k];
-    if (!p || p.hex === c.hex) return acc;
-
-    acc[k] = { prev: p, curr:  c };
-    return acc;
-  }
-
-  return Object.keys(regs).reduce(collectDiff, {});
 }
 
 function collectOpCodes(results) {
@@ -67,6 +61,19 @@ function collectOpCodes(results) {
   return sorted
 }
 
+function diffRegs(prev, regs) {
+  if (!prev) return {};
+
+  function collectDiff(acc, k) {
+    var p = prev[k], c = regs[k];
+    if (!p || p.hex === c.hex) return acc;
+
+    acc[k] = { prev: p, curr:  c };
+    return acc;
+  }
+
+  return Object.keys(regs).reduce(collectDiff, {});
+}
 
 function processLines(lines) {
   var line, res = {}, results = [], prevRegs
@@ -103,15 +110,13 @@ function processLines(lines) {
     }
   }
 
-  var opcodes = collectOpCodes(results);
-
   var json = JSON.stringify({
         steps        : results
       , initialState : {
           entryPoint: entryPoint
         , regs  : initialRegs
         }
-      , opcodes      : opcodes
+      , opcodes : opcodes(file, results, entryPoint)
     }, null, 2);
   process.stdout.write(json);
 }
